@@ -1,13 +1,12 @@
 absl-py==1.0.0
-aiohttp==3.7.4.post0
+aiohttp>=3.7.4
 appdirs==1.4.4
 astor==0.8.1
 async-timeout==3.0.1
 attrs==21.2.0
 autobahn==21.2.1
 Automat==20.2.0
-black==21.12b0
-bleach==1.5.0
+bleach>=3.3.0
 blessed==1.19.0
 boto3==1.18.47
 botocore==1.21.47
@@ -23,7 +22,6 @@ constantly==15.1.0
 cryptography==35.0.0
 cycler==0.10.0
 Cython==0.29.22
-# dataclasses==0.8
 decorator==4.4.2
 Deprecated==1.2.13
 flyingcircus==0.1.4.0
@@ -36,7 +34,7 @@ GitPython==3.1.18
 glcontext==2.3.4
 grpcio==1.42.0
 h5py==3.1.0
-html5lib==0.9999999
+html5lib>=0.99999999
 hyperlink==21.0.0
 idna==3.2
 idna-ssl==1.1.0
@@ -72,7 +70,7 @@ opencv-python==4.5.3.56
 packaging==21.0
 pandas==1.1.5
 pathspec==0.9.0
-Pillow==8.4.0
+Pillow>=9.0.1
 platformdirs==2.4.0
 plyfile==0.7.2
 proglog==0.1.9
@@ -81,11 +79,10 @@ psutil==5.8.0
 pycparser==2.20
 pyglet==1.5.15
 PyGLM==2.5.1
-PyJWT==2.1.0
+pyjwt>=2.4.0
 pykdtree==1.3.4
 pymadcad==0.8.4
 PyMCubes==0.1.2
-# pymesh2==0.3
 pymeshlab==2021.10
 pymrt==0.0.3.4
 PyOpenGL==3.1.0
@@ -121,9 +118,6 @@ smmap==4.0.0
 strict-rfc3339==0.7
 swagger-spec-validator==2.7.3
 sympy==1.9
-# tensorboard==1.8.0
-# tensorflow-gpu==1.8.0
-# tensorflow-tensorboard==1.5.1
 termcolor==1.1.0
 threadpoolctl==2.2.0
 tifffile==2020.9.3
@@ -131,7 +125,6 @@ tomli==1.2.2
 torch==1.12.0
 tqdm==4.61.2
 trimesh==3.9.21
-Twisted==21.7.0
 txaio==21.2.1
 typed-ast==1.5.1
 typing_extensions==4.0.1

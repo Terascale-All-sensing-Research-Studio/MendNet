@@ -35,6 +35,7 @@ If you want to run the fracturing and sampling code, you'll need to install pyme
 
 If you just want to try out inference, run the following script with the example file. This will infer a restoration and create a gif.
 ```
+cd mendnet
 ./scripts/infer_quick.sh experiments/mugs/specs.json ../example_files/fractured_mug.obj
 ```
 
