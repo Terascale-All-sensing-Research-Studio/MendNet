@@ -29,6 +29,3 @@ cd PyMesh && \
 git submodule update --init && \
 ./setup.py build && \
 ./setup.py install
-
-# mesh-fusion messes with the installed version of pyrender
-# pip install --upgrade pyrender

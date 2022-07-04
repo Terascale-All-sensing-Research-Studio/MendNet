@@ -32,3 +32,6 @@ cd .. && \
     python setup.py build_ext --inplace --force && \
     mv pyrender.cpython-3* pyrender.so && \
     pip install .
+
+# librender messes with the installed version of pyrender
+pip install --upgrade pyrender
