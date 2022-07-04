@@ -9,7 +9,7 @@ To generate fractured shapes from scratch, download shapenet from https://shapen
 
 ## Installation
 
-Code tested using Ubutnu 18.04 and python 3.6.9.
+Code tested using Ubutnu 18.04 and python 3.8.0.
 
 Almost all scripts require that the following environment variable be set to the directory above ShapeNet.
 ```
@@ -19,7 +19,7 @@ export DATADIR="/path/to/above/ShapeNet"
 We recommend using virtualenv. The following snippet will create a new virtual environment, activate it, and install deps.
 ```
 sudo apt-get install virtualenv && \
-virtualenv -p python3 env && \
+virtualenv -p python3.8 env && \
 source setup.sh && \
 pip install -r requirements.txt && \
 ./install.sh

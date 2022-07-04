@@ -29,6 +29,6 @@ cd .. && \
     pip install . && \
     cd .. && \
     cd librender && \
-    python setup.py build_ext --inplace && \
-    mv pyrender.cpython-36m-x86_64-linux-gnu.so pyrender.so && \
+    python setup.py build_ext --inplace --force && \
+    mv pyrender.cpython-3* pyrender.so && \
     pip install .
