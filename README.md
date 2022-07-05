@@ -4,6 +4,18 @@ Published at SGP 2022.
 
 <img src="assets/airplane.gif" alt="example1" width="200"/> <img src="assets/mug.gif" alt="example1" width="200"/> <img src="assets/car.gif" alt="example1" width="200"/>
 
+```
+@article {10.1111:cgf.14603,
+  journal = {Computer Graphics Forum},
+  title = {{MendNet: Restoration of Fractured Shapes Using Learned Occupancy Functions}},
+  author = {Lamb, Nikolas and Banerjee, Sean and Banerjee, Natasha K.},
+  year = {2022},
+  publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+  ISSN = {1467-8659},
+  DOI = {10.1111/cgf.14603}
+}
+```
+
 ## Downloading the data
 To generate fractured shapes from scratch, download shapenet from https://shapenet.org/. Extract the data into a directory, e.g. "/path/to/above/ShapeNet".
 
@@ -38,6 +50,9 @@ If you just want to try out inference, run the following script with the example
 cd mendnet
 ./scripts/infer_quick.sh experiments/mugs/specs.json ../example_files/fractured_mug.obj
 ```
+
+## Data Prep
+TODO
 
 ## Training
 
