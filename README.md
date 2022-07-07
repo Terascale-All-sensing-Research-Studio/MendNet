@@ -15,6 +15,7 @@ Published at SGP 2022.
   DOI = {10.1111/cgf.14603}
 }
 ```
+
 ## Installation
 
 Code tested using Ubutnu 18.04 and python 3.8.0.
@@ -44,7 +45,7 @@ cd mendnet
 
 ## Data Preparation
 
-## Downloading the data
+#### Downloading the data
 To generate fractured shapes from scratch, download shapenet from https://shapenet.org/. Extract the data into a directory, e.g. "/path/to/above/ShapeNet".
 
 Almost all scripts require that the following environment variable be set to the directory above ShapeNet.
