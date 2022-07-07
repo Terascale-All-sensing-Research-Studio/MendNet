@@ -15,18 +15,9 @@ Published at SGP 2022.
   DOI = {10.1111/cgf.14603}
 }
 ```
-
-## Downloading the data
-To generate fractured shapes from scratch, download shapenet from https://shapenet.org/. Extract the data into a directory, e.g. "/path/to/above/ShapeNet".
-
 ## Installation
 
 Code tested using Ubutnu 18.04 and python 3.8.0.
-
-Almost all scripts require that the following environment variable be set to the directory above ShapeNet.
-```
-export DATADIR="/path/to/above/ShapeNet"
-```
 
 We recommend using virtualenv. The following snippet will create a new virtual environment, activate it, and install deps.
 ```
@@ -51,8 +42,17 @@ cd mendnet
 ./scripts/infer_quick.sh experiments/mugs/specs.json ../example_files/fractured_mug.obj
 ```
 
-## Data Prep
-TODO
+## Data Preparation
+
+## Downloading the data
+To generate fractured shapes from scratch, download shapenet from https://shapenet.org/. Extract the data into a directory, e.g. "/path/to/above/ShapeNet".
+
+Almost all scripts require that the following environment variable be set to the directory above ShapeNet.
+```
+export DATADIR="/path/to/above/ShapeNet"
+```
+
+TODO: Add fracturing procedure.
 
 ## Training
 
