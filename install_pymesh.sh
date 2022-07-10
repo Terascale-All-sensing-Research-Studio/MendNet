@@ -1,5 +1,5 @@
 # Make libs
-if [ ! -d "/path/to/dir" ] 
+if [ ! -d "libs" ] 
 then
     mkdir libs
 fi
